@@ -1,6 +1,4 @@
 
-
-
 <!--BASIC BODY STYLING-->
 
 header, #container, p {
@@ -76,5 +74,76 @@ ul {
     width: 400px;
     }
 
+
+
+
+
+<!--BASIC BODY STYLING-->
+
+header, #container, p {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  background-color: #758890;
+  text-align: center;
+}
+
+body {
+  background-color: #b8bdb2;
+}
+
+p {
+  padding-left: 5px;
+}
+
+h1 {
+  display: inline-block;
+  background: #000000;
+  color: #ffffff;
+  padding: 5px;
+}
+
+h2 {
+  display: inline-block;
+  background: #b8bdb2;
+  padding-left:20px;
+  padding-right:20px;
+}
+span {
+  background: #b8bdb2;
+}
+
+
+nav {
+    display: inline-block;
+    background: #000000;
+
+}
+
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+  display: inline-block;
+  background: #000000;
+
+}
+a:hover {
+    font-style: italic;
+    color:#b8bdb2;
+
+}
+ul {
+  display: inline-block;
+  background: #b8bdb2;
+  color: #ffffff;
+}
+
+#container{
+    width: 800px;
+    padding-left: 2px;
+}
+#floated{
+    float: right;
+    width: 400px;
+    }
 
 

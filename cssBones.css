@@ -5,8 +5,10 @@
 
 header, #container, p {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  font-weight: bold;
   background-color: #758890;
   text-align: center;
+  text-shadow: 2px 2px 3px gray
 }
 
 body {
@@ -14,7 +16,10 @@ body {
 }
 
 p {
-  padding-left: 5px;
+  padding: 5px;
+  border: 1px dotted #758890;
+  border-radius: 10px;
+  background-color: #676F6E;
 }
 
 h1 {
@@ -37,16 +42,17 @@ span {
 
 nav {
     display: inline-block;
-    background: #000000;
+    background: #758890;
+    letter-spacing: 3px;
 
 }
 
 
 a {
-  color: #ffffff;
+  color: #000000;
   text-decoration: none;
   display: inline-block;
-  background: #000000;
+  background: #676F6E;
 
 }
 a:hover {
@@ -63,6 +69,7 @@ ul {
 #container{
     width: 800px;
     padding-left: 2px;
+    padding-right: 13px;
 }
 #floated{
     float: right;

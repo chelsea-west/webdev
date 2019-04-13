@@ -1,81 +1,4 @@
 
-<!--BASIC BODY STYLING-->
-
-header, #container, p {
-  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  font-weight: bold;
-  background-color: #758890;
-  text-align: center;
-  text-shadow: 2px 2px 3px gray
-}
-
-body {
-  background-color: #b8bdb2;
-}
-
-p {
-  padding: 5px;
-  border: 1px dotted #758890;
-  border-radius: 10px;
-  background-color: #676F6E;
-}
-
-h1 {
-  display: inline-block;
-  background: #000000;
-  color: #ffffff;
-  padding: 5px;
-}
-
-h2 {
-  display: inline-block;
-  background: #b8bdb2;
-  padding-left:20px;
-  padding-right:20px;
-}
-span {
-  background: #b8bdb2;
-}
-
-
-nav {
-    display: inline-block;
-    background: #758890;
-    letter-spacing: 3px;
-
-}
-
-
-a {
-  color: #000000;
-  text-decoration: none;
-  display: inline-block;
-  background: #676F6E;
-
-}
-a:hover {
-    font-style: italic;
-    color:#b8bdb2;
-
-}
-ul {
-  display: inline-block;
-  background: #b8bdb2;
-  color: #ffffff;
-}
-
-#container{
-    width: 800px;
-    padding-left: 2px;
-    padding-right: 13px;
-}
-#floated{
-    float: right;
-    width: 400px;
-    }
-
-
-
 
 
 <!--BASIC BODY STYLING-->
@@ -147,3 +70,12 @@ ul {
     }
 
 
+[data-certification] {
+  background-color: #000000;
+  opacity: 0.5;
+}
+
+[data-skills] {
+  color: #000000;
+  opacity: 0.5;
+}

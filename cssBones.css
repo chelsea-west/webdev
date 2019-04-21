@@ -18,7 +18,6 @@ p {
 }
 
 h1 {
-  text-transform: uppercase;
   display: inline-block;
   background: #000000;
   color: #ffffff;
@@ -39,8 +38,6 @@ span {
 nav {
     display: inline-block;
     background: #000000;
-    text-transform: lowercase;
-
 }
 
 
